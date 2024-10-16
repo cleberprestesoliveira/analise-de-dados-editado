@@ -1,5 +1,5 @@
 //TRocar endereço
-const url = 'https://raw.githubusercontent.com/cleberprestesoliveira/api/refs/heads/main/dados.json'
+const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json'
 
 async function vizualizarInformacoesGlobais() {
     const res = await fetch(url)
