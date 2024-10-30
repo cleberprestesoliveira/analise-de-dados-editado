@@ -15,7 +15,7 @@ async function redesSociaisFavoritasMinhaEscola() {
 }
 
 function processarDados(dados) {
-    const redesSociais = dados.slice(1).map(redes => redes[6])
+    const redesSociais = dados.slice(6).map(redes => redes[6])
     const contagemRedesSociais = redesSociais.reduce((acc, redesSociais) => {
         acc[redesSociais] = (acc[redesSociais] || 0) + 1
         return acc
